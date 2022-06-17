@@ -36,6 +36,15 @@ const appList = [
 
     { domain: '172.30.1.11', servername: 'LocalWebApp', path: '/web/', app: require('./www/www.js') },   // Web App 설정    
     { domain: '172.30.1.11', servername: 'LocalWebAPI', path: '/api/', app: require('./api/api.js') },  // Web API 설정
+
+    { domain: '192.168.219.240', servername: 'LocalWebApp', path: '/web/', app: require('./www/www.js') },   // Web App 설정    
+    { domain: '192.168.219.240', servername: 'LocalWebAPI', path: '/api/', app: require('./api/api.js') },  // Web API 설정
+
+    { domain: '49.164.66.95', servername: 'LocalWebApp', path: '/web/', app: require('./www/www.js') },   // Web App 설정    
+    { domain: '49.164.66.95', servername: 'LocalWebAPI', path: '/api/', app: require('./api/api.js') },  // Web API 설정
+
+    { domain: 'minhyeong.xyz', servername: 'LocalWebApp', path: '/web/', app: require('./www/www.js') },   // Web App 설정    
+    { domain: 'minhyeong.xyz', servername: 'LocalWebAPI', path: '/api/', app: require('./api/api.js') },  // Web API 설정
 ];
 
 //
